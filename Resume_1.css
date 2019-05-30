@@ -1,0 +1,117 @@
+body {
+	background-color: #fcfbff;
+	font-family: monaco, monospace;
+}
+
+h2 {
+	font-size: 50px;
+	font-weight: 900;
+	text-decoration: underline;
+	color: #444444;
+	margin-bottom: 5px;
+}
+
+a {
+	text-decoration: none;
+	color: #000000;
+}
+
+
+a:hover {
+	color: #ffffff;
+	background-color: #777777;
+	width: 50%;
+}
+
+#header {
+	background-color: #fcfcfc;
+	text-align: center;
+	border-style: outset inset outset inset;
+	border-width: 5px;
+	border-color: #f0f0f0;
+	width: 1200px;
+	margin: auto;
+	padding-bottom: 40px;
+}
+
+#header h1 {
+	font-size: 80px;
+	text-decoration: underline;
+	text-decoration-color: #222222;
+	text-decoration-height: 5px; 
+	margin-bottom: 3px;
+}
+
+#header h2 {
+	font-size: 40px;
+	color: #444444;
+	margin-top: 1px;
+	margin-bottom: 5px;
+}
+
+#header ul {
+	display: inline;
+	list-style: none;
+}
+
+#projects {
+	text-align: center;
+	width: 50%;
+	margin: auto;
+	padding-top: 30px;
+}
+
+#projects dt {
+	font-size: 20px;
+	font-weight: 700;
+	margin-top: 15px
+}
+
+#experience {
+	text-align: center;
+	width: 50%;
+	margin: auto;
+	padding-top: 30px;
+}
+
+#experience h3 {
+	font-size: 30px;
+	font-weight: 900;
+	margin-bottom: 5px
+}
+
+#experience h4 {
+	font-size: 20px;
+	font-weight: 700;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+#experience ul {
+	text-align: left;
+	margin-top: 10px;
+	margin-bottom: 10px
+}
+
+#education {
+	text-align: center;
+	width: 50%;
+	margin: auto;
+	padding-top: 30px;
+}
+
+#education p {
+	margin: 5px;
+}
+
+#programs {
+	text-align: center;
+	width: 50%;
+	margin: auto;
+	padding-top: 30px;
+}
+
+#programs ul {
+	display: inline;
+	list-style: none;
+}

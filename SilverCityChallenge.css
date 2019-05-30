@@ -1,0 +1,56 @@
+body {
+	background-color: #C3D3ED;
+	height: 1450px;
+}
+
+h1 {
+	text-align: center;
+	font-size: 50px;
+	text-decoration: underline;
+}
+
+fieldset {
+	background-color: #ffffff;
+	width: 800px;
+	margin: auto;
+	margin-top: 20px;
+	padding: 15px;
+}
+
+#submitButton {
+	font-size: 25px;
+	font-weight: 700;
+	width: 250px;
+	height: 75px;
+	display: block;
+	margin: auto;
+	margin-top: 15px;
+	text-align: center;
+	border: 1px solid #777777;
+}
+
+#WHAT {
+	display: block;
+	width: 110px;
+	float: left;
+}
+
+legend {
+	background-color: #F9FFC4;
+	padding: 10px;
+	font-size: 18px;
+	font-weight: 900;
+	border: 2px solid #777777;
+}
+
+input {
+	margin: 5px;
+}
+
+#comment{
+	width: 100%;
+}
+
+#personalInfo {
+	width: 670px;
+}

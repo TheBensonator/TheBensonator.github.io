@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href="SilverCityChallenge.css" rel="stylesheet" type="text/css"/>
+	<title>Silver City Survey</title>
+</head>
+<body>
+	<h1>Welcome to Silver City!</h1>
+    <form name="formtest" method="post" action="https://elearn.usu.edu/courses/itls-5265/forms/form_results.php">
+        <!-- Put your form code here. -->
+
+    	<fieldset>
+    		<legend>Form Information</legend>
+    		<p>
+    			<label id="WHAT">First Name:</label>
+    			<input type="text" name="firstname" id="personalInfo"> <br>
+    		</p>
+    		<p>
+    			<label id="WHAT">Last Name:</label>
+    			<input type="text" name="lastname" id="personalInfo"> <br>
+    		</p>
+    		<p>
+    			<label id="WHAT">Zipcode:</label>
+    			<input type="text" name="zipcode" id="personalInfo"> <br>
+    		</p>
+    		<p>
+    			<label id="WHAT">Email Address:</label>
+    			<input type="email" name="email" id="personalInfo"> <br>
+    		</p>
+    	</fieldset>
+
+        <fieldset>
+        	<legend>Why are you visiting Silver City?</legend>
+        	<input type="radio" name="whysc" value="Resident"> Resident of Silver City <br>
+        	<input type="radio" name="whysc" value="Work"> Work in Silver City <br>
+        	<input type="radio" name="whysc" value="Business or Shopping"> Business or Shopping <br>
+        	<input type="radio" name="whysc" value="Vacation or Tourist"> Vacation or Tourist <br>
+        	<input type="radio" name="whysc" value="Other"> Other <br>
+    	</fieldset>
+
+    	<fieldset>
+    		<legend>How often do you visit Silver City?</legend>
+			<input type="radio" name="frequency" Value="Resident"> I live here <br>
+			<input type="radio" name="frequency" Value="Week"> Several times a week <br>
+			<input type="radio" name="frequency" Value="Month"> Several times a month <br>
+			<input type="radio" name="frequency" Value="GreaterThanYear"> Several times a year <br>
+			<input type="radio" name="frequency" Value="LessThanYear"> Once a year or less <br>
+			<input type="radio" name="frequency" Value="Never"> I never visit Silver City <br>
+    	</fieldset>
+
+    	<fieldset>
+    		<legend>What would make downtown Silver City more attractive to them to visit (check all that apply)</legend>
+    		<input type="checkbox" name="improvement[]" value="Restaurants"> More restaurants <br>
+    		<input type="checkbox" name="improvement[]" value="SpecialtyStores"> More specialty stores <br>
+    		<input type="checkbox" name="improvement[]" value="TouristShops"> More tourist type shops <br>
+    		<input type="checkbox" name="improvement[]" value="Businesses"> More professional businesses <br>
+    		<input type="checkbox" name="improvement[]" value="Parking"> Additional parking <br>
+    		<input type="checkbox" name="improvement[]" value="BusRoute"> A bus route from nearby hotels or popular tourist spots <br>
+    		<input type="checkbox" name="improvement[]" value="Facelift"> Give the place a facelift <br>
+    		<input type="checkbox" name="improvement[]" value="Events"> concerts and events held downtown <br>
+    		<input type="checkbox" name="improvement[]" value="MoreLocals"> Fewer tourists, and more places for locals <br>
+    	</fieldset>
+
+    	<fieldset>
+    		<legend>Additional Comments?</legend>
+    		<textarea type"text" name="comment" rows="5" cols="5" wrap="soft" id="comment"></textarea>
+    	</fieldset>
+
+    	<input type="submit" value="Submit Response" id="submitButton">
+    </form>
+</body>
+</html>
