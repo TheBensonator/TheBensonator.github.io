@@ -10,7 +10,7 @@ p {
 }
 
 body {
-	font-family: Helvetica, Arial, sans-serif;
+	font-family: "Courier New", Courier;
 	padding: 0;
 	margin: 0;
 	background-color: #3f3f3f;
@@ -23,21 +23,23 @@ img {
 }
 
 /* Section Inner */
-div.section-inner {
+div.section-top {
 	max-width: 1100px;
 	padding: 0 25px;
 	margin: 0 auto;
-}
-
-/* Header */
-div.header {
-	background-color: #E9E9E9;
-	padding: 40px 0;
+	color: #ffffff;
+	position: absolute;
+	top: 8px;
+  	right: 16px;
+  	background-color: #000000;
 }
 
 /* Navigation */
 div.nav {
 	background-color: #d4d4d4;
+	position: relative;
+	text-align: center;
+  	color: white;
 }
 
 div.nav ul {
@@ -48,7 +50,8 @@ div.nav ul {
 div.nav ul li {
 	list-style: none;
 	float: left;
-	font-size: 93%;
+	font-size: 100%;
+	margin-left: 20px;
 }
 
 div.nav ul li a:link,
@@ -56,8 +59,39 @@ div.nav ul li a:visited {
 	display: block;
 	padding: 10px 15px;
 	text-decoration: none;
-	color: #000;
-	border-right: 1px solid #bababa;
+	color: #ffffff;
+	border: 1px solid #bababa;
+}
+
+div.nav img {
+	margin-top: -115px;
+	width: auto;
+}
+
+div.nav p {
+	position: absolute;
+	top: 40%;
+	left: 10%;
+	font-size: 75px;
+}
+
+div.nav h1 {
+	background-color: #ffffff;
+	height: 100px;
+	position: absolute;
+	top: 90%;
+	width: 1519px;
+}
+
+div.nav h2 {
+	background-color: #000000;
+	height: 220px;
+}
+
+div.title-text h2 {
+	font-weight: 500;
+	font-size: 100px;
+	padding-top: 80px;
 }
 
 /* Body Content */
@@ -66,19 +100,71 @@ div.body-content {
 	background-color: #FFF;
 }
 
+div.section-lower {
+	max-width: 1100px;
+	padding: 0 25px;
+	margin: 0 auto;
+	color: #000000;
+}
+
 /* Thirds */
 div.thirds {
 	padding-bottom: 50px;
 }
 
-div.one-third {
+div.grid-one-third {
 	width: 30%;
 	float: left;
 	margin-right: 5%;
 }
 
+div.one-third-first{
+	font-size: 20px;
+	margin-top: 75px;
+}
+
+div.one-third-first img{
+	width: 400px;
+}
+
+div.one-third-last img {
+	width: 400px;
+}
+
 div.one-third-last {
 	margin: 0;
+}
+
+/* Half */
+div.half {
+	padding-bottom: 50px;
+}
+
+div.grid-half {
+	width:48%;
+	float: left;
+	margin: 1%;
+}
+
+div.grid-half h2 {
+	margin-left: 11%;
+	margin-top: 10%;
+	font-size: 40px;
+}
+
+div.grid-half p {
+	width: 400px;
+	font-size: 25px;
+	text-align: center;
+}
+
+div.grid-half input {
+	margin-bottom: 25px;
+	font-size: 25px;
+}
+
+div.grid-half form {
+	margin-left: 30%;
 }
 
 /* Main Column */
@@ -88,26 +174,55 @@ div.main {
 	margin-right: 5%;
 }
 
+/* Main Column */
+div.main-lower {
+	width: 65%;
+	float: left;
+	margin-right: 5%;
+	margin-top: 100px;
+}
+
+div.main-lower h2 {
+	font-size: 20px;
+	font-weight: 500;
+	margin-left: 8%;
+	margin-top: 10px;
+}
+
+div.main-lower ol {
+	margin-left: 3%;
+	margin-bottom: 20px;
+	text-align: left;
+	list-style-type: none;
+}
+
+div.main-lower ul {
+	margin-left: 5%;
+	margin-bottom: 20px;
+	text-align: left;
+}
+
+div.main-lower li {
+	margin-bottom: 10px;
+}
+
 /* Side Column */
 div.side {
 	width: 30%;
 	float: left;
 }
 
-/* Info Box */
-div.info-box-a {
-	background-color: #9bdaef;
+/* Quote Box */
+div.quote-box {
 	padding: 20px;
-	font-size: 13px;
-	margin: 0 0 15px 0;
+	font-size: 50px;
+	font-weight: 700;
+	border: 2px solid #777777;
+	height: 200px;
+	margin-top: 65px;
+	text-align: center;
 }
 
-div.info-box-b {
-	background-color: #efdb7f;
-	padding: 20px;
-	font-size: 13px;
-	margin: 0 0 15px 0;
-}
 
 /* Footer */
 div.footer {
@@ -117,16 +232,41 @@ div.footer {
 	text-align: center;
 }
 
-#MainPic {
-	margin: 0px;
+div.main p {
+	font-weight: 500;
 }
 
-#BreakPic {
-	width: 1000px;
+div.main h2 {
+	font-weight: 700;
+	font-size: 35px;
+	margin-bottom: 10px;
+}
+
+div.middle-pic {
+	width: 1100px;
 	height: 500px;
-	margin: auto;
+	overflow: hidden;
+	margin-bottom: 20px;
 }
 
+div.middle-pic img {
+	width: 1100px;
+	height: 733px;
+	margin: -60px 0 0 0;
+}
+
+div.side-pic {
+	width: 330px;
+	height: 600px;
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+
+div.side-pic img {
+	width: 400px;
+	height: 600px;
+	margin: 0 0 0 0;
+}
 
 .clearfix:before, .clearfix:after { content: ""; display: table; }
 .clearfix:after { clear: both; }
